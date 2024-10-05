@@ -7,8 +7,8 @@ import dev.langchain4j.model.embedding.EmbeddingModel;
 import dev.langchain4j.model.openai.OpenAiChatModel;
 import dev.langchain4j.retriever.EmbeddingStoreRetriever;
 import dev.langchain4j.store.embedding.EmbeddingStoreIngestor;
-import dev.langchain4j.store.embedding.studyassistant.AstraDbEmbeddingConfiguration;
-import dev.langchain4j.store.embedding.studyassistant.AstraDbEmbeddingStore;
+import dev.langchain4j.store.embedding.cassandra.AstraDbEmbeddingConfiguration;
+import dev.langchain4j.store.embedding.cassandra.AstraDbEmbeddingStore;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
